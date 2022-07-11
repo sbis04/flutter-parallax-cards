@@ -2,7 +2,7 @@
 
 This is a Flutter app showcasing a parallax effect using the device accelerometers.
 
-![Flutter Parallax Cards demo](screenshots/flutter_parallax_cards.mov)
+https://user-images.githubusercontent.com/43280874/178327437-4a4752aa-c19d-44d8-ad94-86654e973e58.mov
 
 ---
 
