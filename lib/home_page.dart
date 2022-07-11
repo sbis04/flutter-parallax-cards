@@ -91,7 +91,10 @@ class _HomePageState extends State<HomePage> {
               viewportFraction: 0.80,
               enableInfiniteScroll: false,
             ),
-            items: [0, 1, 2].map((index) {
+            items: foregroundImages.asMap().entries.map((entry) {
+              int index = entry.key;
+              String foregroundImage = entry.value;
+
               return Builder(
                 builder: (BuildContext context) {
                   return Padding(
@@ -119,7 +122,7 @@ class _HomePageState extends State<HomePage> {
                                 ? (-13 + _accelerometerXAxis! * 1.5)
                                 : -13,
                             child: Image.asset(
-                              'images/${foregroundImages[index]}',
+                              'images/$foregroundImage',
                               fit: BoxFit.fill,
                             ),
                           ),
@@ -219,17 +222,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-// -------------------
-// Sample
-// -------------------
-// return Scaffold(
-//       body: Center(
-//         child: Padding(
-//           padding: const EdgeInsets.all(16.0),
-//           child: Text(
-//             'Accelerometer: ${_accelerometerXAxis?.toStringAsFixed(1)}',
-//           ),
-//         ),
-//       ),
-//     );
