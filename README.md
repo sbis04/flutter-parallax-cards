@@ -4,6 +4,13 @@ This is a Flutter app showcasing a parallax effect using the device acceleromete
 
 https://user-images.githubusercontent.com/43280874/178327437-4a4752aa-c19d-44d8-ad94-86654e973e58.mov
 
+## Packages
+
+Following Flutter packages are used in this project:
+
+* [sensors_plus](https://pub.dev/packages/sensors_plus)
+* [carousel_slider](https://pub.dev/packages/carousel_slider)
+
 ---
 
 Inspired by this [Tweet](https://twitter.com/lima_lucas3/status/1545956814650499072) and [Dribble](https://dribbble.com/shots/14330503--Parallax-Travel-Cards) ✨
