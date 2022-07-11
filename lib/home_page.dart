@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_parallax_cards/parallax_cards.dart';
+import 'package:flutter_parallax_cards/travel_cards.dart';
 import 'package:flutter_parallax_cards/res/palette.dart';
 
 class HomePage extends StatefulWidget {
