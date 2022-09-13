@@ -119,7 +119,7 @@ class _TravelCardsState extends State<TravelCards> {
                         const SizedBox(height: 16),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                              elevation: 0, primary: Colors.white30),
+                              elevation: 0, backgroundColor: Colors.white30),
                           onPressed: () {},
                           child: const Padding(
                             padding: EdgeInsets.symmetric(
